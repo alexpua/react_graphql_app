@@ -1,0 +1,14 @@
+{
+  "name": "ox_security",
+  "version": "1.0.0",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "start:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm run start:dev --prefix backend",
+    "install:all": "npm install --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
